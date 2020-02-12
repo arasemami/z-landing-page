@@ -1,0 +1,33 @@
+
+:host{
+  overflow: hidden;
+
+}
+// svg:not(:root) {
+//   overflow: hidden;
+//   position: absolute;
+// }
+
+svg {
+  position: absolute;
+  height: 100%;
+  stroke: #333;
+  stroke-width: 3px;
+  fill: transparent;
+  stroke-dasharray: 21574;
+  stroke-dashoffset: 21576;
+  animation: animi 5s normal forwards;
+  animation-iteration-count: 1;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+@keyframes animi {
+  to {
+    stroke-dashoffset: 1;
+
+  }
+}
