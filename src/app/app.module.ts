@@ -12,6 +12,10 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { IndexAnimationComponent } from './components/animations/index-animation/index-animation.component';
 import { MainButtonComponent } from './components/common/main-button/main-button.component';
+import { IndexSolutionComponent } from './components/index/index-solution/index-solution.component';
+import { IndexManifestoComponent } from './components/index/index-manifesto/index-manifesto.component';
+import { PlayButtonComponent } from './components/common/play-button/play-button.component';
+import { SimpleButtonComponent } from './components/common/simple-button/simple-button.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { MainButtonComponent } from './components/common/main-button/main-button
     IndexComponent,
     TopScreenComponent,
     IndexAnimationComponent,
-    MainButtonComponent
+    MainButtonComponent,
+    IndexSolutionComponent,
+    IndexManifestoComponent,
+    PlayButtonComponent,
+    SimpleButtonComponent
   ],
   imports: [
     BrowserModule,
