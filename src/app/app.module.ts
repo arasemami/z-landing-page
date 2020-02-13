@@ -16,6 +16,7 @@ import { IndexSolutionComponent } from './components/index/index-solution/index-
 import { IndexManifestoComponent } from './components/index/index-manifesto/index-manifesto.component';
 import { PlayButtonComponent } from './components/common/play-button/play-button.component';
 import { SimpleButtonComponent } from './components/common/simple-button/simple-button.component';
+import { IndexNewsComponent } from './components/index/index-news/index-news.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SimpleButtonComponent } from './components/common/simple-button/simple-
     IndexSolutionComponent,
     IndexManifestoComponent,
     PlayButtonComponent,
-    SimpleButtonComponent
+    SimpleButtonComponent,
+    IndexNewsComponent
   ],
   imports: [
     BrowserModule,
