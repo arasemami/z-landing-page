@@ -1,8 +1,57 @@
 header {
-  height: 50px;
   background-color: #ddd;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 8px solid #303030;
+
+  .left-side,
+  .right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+
+  .right-side {
+    justify-content: flex-end;
+  }
+
+  .book-container {
+    min-width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 1rem;
+
+    p {
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding-top: 0.5rem;
+    }
+
+    h3 {
+      font-weight: 100;
+      padding: 0;
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+  }
+
+
+  .hamburger-menu {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../../assets/img/icons/menu.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+
+
+  }
 
 }
