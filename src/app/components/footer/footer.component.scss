@@ -1,25 +1,76 @@
-
 footer {
-    background-color: #333333;
-    color: #ffffff;
-    padding: 5rem;
+  background-color: #ffffff;
+  color: #ffffff;
 
-.book-container {
+
+  .book-container {
     display: flex;
 
-    .d-left , .d-right {
-        width: 50%;
-        height: 450px;
-        
-    }
-    .d-left {
-        background-color: #303030;
-    }
+    .d-left,
     .d-right {
-        background-color: #ffffff7d;
-        margin-top: 80px;
-        margin-left: -80px;
+      width: 50%;
+      height: 650px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 3rem 20rem;
+
+      p {
+        padding: 3rem 2rem;
+      }
+
     }
+
+    .d-left {
+      background-color: #303030;
+    }
+
+    .d-right {
+      background-color: #e7e7e77d;
+      margin-top: 80px;
+      margin-left: -80px;
+
+      p,
+      h1 {
+        color: #303030;
+      }
+    }
+  }
+
+
+  .menu-container {
+      background-color: #dddddd;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      ul {
+        list-style-type: none;
+
+        li {
+            padding: 0.7rem 0;
+            cursor: pointer;
+            color: #303030;
+        }
+      }
+
+      .social-container {
+        background-color: green;
+        padding: 3rem;
+      }
+  }
+
+  .about-zino {
+
+    p {
+        padding: 1rem 0;
+        font-weight: 300;
+    }
+  }
 }
-   
+
+.custome-center {
+    display: flex;
+    align-items: center;
 }

@@ -9,6 +9,8 @@ export class MainButtonComponent implements OnInit {
 
   @Input() text: string;
   @Input() color: string;
+  @Input() bgColor: string;
+
 
   constructor() { }
 
