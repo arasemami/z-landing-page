@@ -14,7 +14,7 @@ footer {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      padding: 3rem 20rem;
+      padding: 3rem 2rem;
 
       p {
         padding: 3rem 2rem;
@@ -30,14 +30,23 @@ footer {
       background-color: #e7e7e77d;
       margin-top: 80px;
       margin-left: -80px;
+      padding-left: 7rem;
 
       p,
-      h1 {
+      h2 {
         color: #303030;
       }
+     
     }
+    h2{
+        font-size: 25px;
+        padding: 0 2rem;
+      }
   }
 
+  .footer-info {
+    padding-top: 15rem !important;
+  }
 
   .menu-container {
     background-color: #dddddd;
@@ -56,16 +65,20 @@ footer {
     }
 
     .social-container {
-      background-color: green;
+      background-color: #ffffff;
       padding: 3rem;
     }
   }
 
   .about-zino {
+    color: #303030 !important;
+    padding: 0 10rem;
 
     p {
       padding: 1rem 0;
       font-weight: 300;
+      line-height: 1.7rem;
+      text-align: justify;
     }
   }
 
@@ -82,14 +95,26 @@ footer {
   .icon-fb {
     background-image: url('../../../assets/img/icons/facebook-logo.svg');
   }
+
   .icon-twitter {
     background-image: url('../../../assets/img/icons/twitter.svg');
   }
+
   .icon-linkedin {
     background-image: url('../../../assets/img/icons/linkedin.svg');
   }
+
   .icon-instagram {
     background-image: url('../../../assets/img/icons/facebook-logo.svg');
+  }
+
+
+  .our-image {
+    height: 500px;
+    background-image: url('../../../assets/img/png/02.jpeg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 }
 
