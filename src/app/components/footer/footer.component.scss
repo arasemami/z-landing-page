@@ -3,4 +3,23 @@ footer {
     background-color: #333333;
     color: #ffffff;
     padding: 5rem;
+
+.book-container {
+    display: flex;
+
+    .d-left , .d-right {
+        width: 50%;
+        height: 450px;
+        
+    }
+    .d-left {
+        background-color: #303030;
+    }
+    .d-right {
+        background-color: #ffffff7d;
+        margin-top: 80px;
+        margin-left: -80px;
+    }
+}
+   
 }
