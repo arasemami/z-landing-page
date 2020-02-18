@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopScreenComponent implements OnInit {
 
+  isVideoActive = false;
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  deletePhone(val) {
+    this.isVideoActive = val;
+  }
+
+
 
 }

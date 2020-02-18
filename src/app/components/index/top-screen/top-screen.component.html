@@ -11,10 +11,10 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">
-                <app-play-button></app-play-button>
+                <app-play-button (click)="this.isVideoActive = true"></app-play-button>
             </div>
         </div>
     </div>
 
-    <app-video-player></app-video-player>
+    <app-video-player (statusEvent)="this.isVideoActive = false"  *ngIf="isVideoActive"></app-video-player>
 </div>

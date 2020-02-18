@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-video-player',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoPlayerComponent implements OnInit {
 
+  @Output() statusEvent = new EventEmitter<boolean>();
+
+
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+
+  callParent() {
+    this.statusEvent.next(false);
   }
 
 }
