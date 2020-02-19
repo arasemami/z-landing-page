@@ -19,6 +19,7 @@ import { SimpleButtonComponent } from './components/common/simple-button/simple-
 import { IndexNewsComponent } from './components/index/index-news/index-news.component';
 import { IndexUserStoryComponent } from './components/index/index-user-story/index-user-story.component';
 import { VideoPlayerComponent } from './components/index/top-screen/video-player/video-player.component';
+import { SectionTitleComponent } from './components/common/section-title/section-title.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { VideoPlayerComponent } from './components/index/top-screen/video-player
     SimpleButtonComponent,
     IndexNewsComponent,
     IndexUserStoryComponent,
-    VideoPlayerComponent
+    VideoPlayerComponent,
+    SectionTitleComponent
   ],
   imports: [
     BrowserModule,
