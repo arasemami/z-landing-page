@@ -51,7 +51,7 @@ footer {
   }
 
   .menu-container {
-    background-color: #dddddd;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -123,4 +123,17 @@ footer {
 .custome-center {
   display: flex;
   align-items: center;
+}
+
+.end-footer {
+padding: 2rem 1rem
+}
+
+
+
+
+@media only screen and (max-width: 1700px) {
+  .about-zino {
+     padding:  0 5rem!important;
+  }
 }
